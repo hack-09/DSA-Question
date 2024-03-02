@@ -26,7 +26,7 @@ int main(){
     }
 
     int ans=-1;
-    sort(v.begin(),v.end());
+    // sort(v.begin(),v.end());
     int s=0, e=v[n-1];
     int mid=s+(e-s)/2;
     while(s<=e){
