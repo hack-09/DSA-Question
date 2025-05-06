@@ -22,8 +22,8 @@ int main(){
     it++;
 
     s.erase(it);
-
-    for(int i:s){
+ 
+    for(int i:s){ 
         cout << i <<" ";
     }cout<<endl;
 
